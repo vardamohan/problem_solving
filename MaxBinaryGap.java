@@ -5,7 +5,7 @@ public class MaxBinaryGap{
     System.out.println("Maximum Binary Gap for number "+num+" is "+ getMaxBinaryGap(num));
   }
  
-  public int getMaxBinaryGap(int num) {
+  private static int getMaxBinaryGap(int num) {
       int maxBinaryGap = 0;
     	int rightMostBit = 0;
     	int counter = -1;     
